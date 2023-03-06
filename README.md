@@ -54,3 +54,11 @@ Approch:
 5. The parameters in the sweep include epochs, hidden_layer_count, size_hidden_layers, learning_rate, optimizer, batch_size, activation, weight_initializations, and weight_decay. The sweep is created using the sweep_config and run using the wandb.agent() function with the train() function.
 
 The code for question 4 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question4.ipynb). Additionally, a WandB visualization for question 4 is accessible at the following [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Question-4--VmlldzozNzA5ODcx).
+
+# Question 5
+The wandb visualisation for question 5 can be found at this [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/val_accuracy-v-created-23-03-06-11-49-47---VmlldzozNzA5OTIz?accessToken=cd28z4peh0id23piekqrts0en0v1vzjffn5yie32jpk012ja203h88xh0h0quchc).
+
+# Question 6
+The wandb visualisation for question 5 can be found at this [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/-23-03-06-11-50-55---VmlldzozNzA5OTMw?accessToken=kgnj99hmixu885d5sy0zgfj8fxqon8ix82e4xwdo04l5s3oxqhprfa0lju24d4ks).
+
+
