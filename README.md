@@ -30,4 +30,17 @@ Approch:
 4. The weights and biases of the network are initialized using either random or Xavier initialization.
 5. The network has methods for computing the forward activation, gradient of the activation, and softmax function.
 6. The forward_pass method computes the output of the network given an input X and the current weights and biases.
-The code for question 1 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Question_2ipynb.ipynb).
+
+The code for question 2 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Question_2ipynb.ipynb).
+
+# Question 3
+Approch:
+1. Addition to last question backpropogation added, method performs backpropagation to calculate gradients for each layer of the neural network.
+2. The method first performs a forward pass using the input data and current weights. It then computes the derivative of the loss with respect to the final activation layer. Using this derivative, the method iteratively computes the derivatives for each previous layer, propagating backwards through the network.
+3. Finally, it returns the derivative of the loss with respect to the input layer activations.
+4. The fit method takes input parameters such as X and Y training data, X_val and Y_val validation data, and several hyperparameters such as the optimization algorithm, learning rate, etc.
+5. The method trains the neural network for the given number of epochs using a loop and prints the train loss, train accuracy, validation loss, and validation accuracy every five epochs.
+6. The method implements four optimization algorithms (SGD, Momentum, RMSProp, Adam) and updates the weights and biases of the neural network in each epoch accordingly.
+5. It prints the training and validation loss and accuracy at each epoch.
+
+The code for question 2 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Question_3.ipynb).
