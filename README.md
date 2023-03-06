@@ -61,4 +61,22 @@ The wandb visualisation for question 5 can be found at this [link](https://wandb
 # Question 6
 The wandb visualisation for question 6 can be found at this [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/-23-03-06-11-50-55---VmlldzozNzA5OTMw?accessToken=kgnj99hmixu885d5sy0zgfj8fxqon8ix82e4xwdo04l5s3oxqhprfa0lju24d4ks).
 
+# Question 7
+Approch:
 
+1. The approach to finding the best machine learning model involves experimenting with different hyperparameters and configurations to find the best combination.
+2.  Once the best model is identified, its accuracy and other relevant metrics should be reported. 
+3.  Implementation of  a function to calculate confusion matrix done.
+4.  Parameter for best model:
+5.  {'learning_rate': 0.001,
+    'epochs': 20,
+    'hidden_layer_count': 3,
+    'size_hidden_layers': 512,
+    'optimizer': 'nadam',
+    'batch_size': 64,
+    'activation': 'tanh',
+    'weight_initializations': 'random',
+    'weight_decay': 0.05,
+    'loss_function': 'CE'}
+ 6.  Plot and integrate wandb to keep track using wandb. The best model can be found here [link](https://api.wandb.ai/links/ed22s009/eq8tg2wj). The code for question 7 can be found here. The wandb visualisation for question 7 can be found here[link](https://github.com/swapnilmn/Assignment_1CS6910/blob/master/Assignment_1_Question7.ipynb).
+    
