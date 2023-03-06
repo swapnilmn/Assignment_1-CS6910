@@ -53,4 +53,4 @@ Approch:
 4. The sweep configuration includes the method, name, metric, and parameters for the sweep. The metric used to evaluate the sweep results is val_accuracy, and the goal is to maximize this metric.
 5. The parameters in the sweep include epochs, hidden_layer_count, size_hidden_layers, learning_rate, optimizer, batch_size, activation, weight_initializations, and weight_decay. The sweep is created using the sweep_config and run using the wandb.agent() function with the train() function.
 
-The code for question 4 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question4.ipynb). Additionally, a WandB visualization for question 4 is accessible at the following [link](https://api.wandb.ai/links/ed22s009/f7zx8lal).
+The code for question 4 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question4.ipynb). Additionally, a WandB visualization for question 4 is accessible at the following [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Question-4--VmlldzozNzA5ODcx).
