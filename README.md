@@ -80,3 +80,10 @@ Approch:
     'loss_function': 'CE'}
  6.  Plot and integrate wandb to keep track using wandb. The best model can be found here [link](https://api.wandb.ai/links/ed22s009/eq8tg2wj). The code for question 7 can be found here. The wandb visualisation for question 7 can be found here [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question7.ipynb).
     
+# Question 8
+Approch:
+1. Implemented a function to calculate the squared error loss. L = 1/2 * (predicted_value - actual_value) ^ 2
+2. Took the outputs of both squared error loss and cross entropy loss for a given set of predictions and actual values.
+3. Integrate the outputs of squared error loss and cross entropy loss to see a plot automatically generated on wandb.
+
+The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://api.wandb.ai/links/ed22s009/oajvd33r).
