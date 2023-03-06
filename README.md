@@ -43,4 +43,14 @@ Approch:
 6. The method implements four optimization algorithms (SGD, Momentum, RMSProp, Adam) and updates the weights and biases of the neural network in each epoch accordingly.
 5. It prints the training and validation loss and accuracy at each epoch.
 
-The code for question 2 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Question_3.ipynb).
+The code for question 3 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Question_3.ipynb).
+
+# Question 4
+Approch:
+1. Initializes Weights and Biases (WandB) to track and visualize training progress.Defines a configuration dictionary containing hyperparameters such as learning rate, number of epochs, optimizer, etc.
+2. Defines a train function that initializes WandB with the given configuration, sets up the neural network model, trains the model, and generates a confusion matrix plot.
+3. The neural network model is defined using a FFNetwork class, which takes in the given configuration and trains the model using various optimization algorithms such as SGD, Momentum, Adam, etc.
+4. The sweep configuration includes the method, name, metric, and parameters for the sweep. The metric used to evaluate the sweep results is val_accuracy, and the goal is to maximize this metric.
+5. The parameters in the sweep include epochs, hidden_layer_count, size_hidden_layers, learning_rate, optimizer, batch_size, activation, weight_initializations, and weight_decay. The sweep is created using the sweep_config and run using the wandb.agent() function with the train() function.
+
+The code for question 4 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question4.ipynb). Additionally, a WandB visualization for question 4 is accessible at the following [link](https://api.wandb.ai/links/ed22s009/f7zx8lal).
