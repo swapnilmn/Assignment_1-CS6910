@@ -78,5 +78,5 @@ Approch:
     'weight_initializations': 'random',
     'weight_decay': 0.05,
     'loss_function': 'CE'}
- 6.  Plot and integrate wandb to keep track using wandb. The best model can be found here [link](https://api.wandb.ai/links/ed22s009/eq8tg2wj). The code for question 7 can be found here. The wandb visualisation for question 7 can be found here[link](https://github.com/swapnilmn/Assignment_1CS6910/blob/master/Assignment_1_Question7.ipynb).
+ 6.  Plot and integrate wandb to keep track using wandb. The best model can be found here [link](https://api.wandb.ai/links/ed22s009/eq8tg2wj). The code for question 7 can be found here. The wandb visualisation for question 7 can be found here [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question7.ipynb).
     
