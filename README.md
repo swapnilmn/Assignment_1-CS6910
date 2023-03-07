@@ -59,7 +59,7 @@ The code for question 4 is available at the following [link](https://github.com/
 The wandb visualisation for question 5 can be found at this [link](https://api.wandb.ai/links/ed22s009/mcze8md4).
 
 # Question 6
-The wandb visualisation for question 6 can be found at this [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/-23-03-06-11-50-55---VmlldzozNzA5OTMw?accessToken=kgnj99hmixu885d5sy0zgfj8fxqon8ix82e4xwdo04l5s3oxqhprfa0lju24d4ks](https://api.wandb.ai/links/ed22s009/01bhldhw).
+The wandb visualisation for question 6 can be found at this [link](https://api.wandb.ai/links/ed22s009/01bhldhw).
 
 # Question 7
 Approch:
