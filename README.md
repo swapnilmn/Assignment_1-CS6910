@@ -20,7 +20,7 @@ Approch:
 5. Visualize the selected images using library Matplotlib.
 6. Integrate Wandb by initializing a new run, logging the selected images.
 
-The code for question 1 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Q1.ipynb). Additionally, a WandB visualization for question 1 is accessible at the following [link](https://wandb.ai/ed22s009/Question_1_?workspace=user-ed22s009).
+The code for question 1 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Q1.ipynb). Additionally, a WandB visualization for question 1 is accessible at the following [link for Test data](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Test-Sample-Images-23-03-07-09-46-44---VmlldzozNzE5NDE2?accessToken=5pjoktdiyt55kxfa5ice07170c49t7q51nxsg94urfftg7sqe0lnwlushquvy5el), [link for train data](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Train-Sample-Images-23-03-07-09-47-46---VmlldzozNzE5NDIz?accessToken=zlhk92dggxsrfawk6vl1sm9ctbeqsng9q8bqm7vvt4r1weaee0pyqodwk4xge1l1).
 
 # Question 2
 Approch:
