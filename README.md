@@ -87,3 +87,7 @@ Approch:
 3. Integrate the outputs of squared error loss and cross entropy loss to see a plot automatically generated on wandb.
 
 The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://wandb.ai/ed22s009/Question_8_Best_Model/reports/Question-8--VmlldzozNzEwODc4).
+
+
+# Train.py file
+link of [train.py](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/train_py.py) file 
