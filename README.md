@@ -78,7 +78,7 @@ Approch:
     'weight_initializations': 'random',
     'weight_decay': 0.05,
     'loss_function': 'CE'}
- 6.  Plot and integrate wandb to keep track using wandb. The code for question 7 can be found here [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question7.ipynb). The wandb visualisation for question 7 can be found here [link](https://api.wandb.ai/links/ed22s009/eq8tg2wj).
+ 6.  Plot and integrate wandb to keep track using wandb. The code for question 7 can be found here [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question7.ipynb). The wandb visualisation for question 7 can be found here [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/undefined-23-03-07-10-06-27---VmlldzozNzE5NTE2?accessToken=8i9nfbgbvu44z24cag0wokh82nxvvx9okpc5uisp5qpxxr0452kdjug93gknn3jz).
     
 # Question 8
 Approch:
