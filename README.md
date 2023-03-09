@@ -36,13 +36,14 @@ The code for question 2 is available at the following [link](https://github.com/
 
 # Question 3
 Approch:
-1. Addition to last question backpropogation added, method performs backpropagation to calculate gradients for each layer of the neural network.
-2. The method first performs a forward pass using the input data and current weights. It then computes the derivative of the loss with respect to the final activation layer. Using this derivative, the method iteratively computes the derivatives for each previous layer, propagating backwards through the network.
-3. Finally, it returns the derivative of the loss with respect to the input layer activations.
-4. The fit method takes input parameters such as X and Y training data, X_val and Y_val validation data, and several hyperparameters such as the optimization algorithm, learning rate, etc.
-5. The method trains the neural network for the given number of epochs using a loop and prints the train loss, train accuracy, validation loss, and validation accuracy every five epochs.
-6. The method implements four optimization algorithms (SGD, Momentum, RMSProp, Adam) and updates the weights and biases of the neural network in each epoch accordingly.
-5. It prints the training and validation loss and accuracy at each epoch.
+1. Addition to last question backpropogation algorithm added, that performs backpropagation to calculate gradients for each layer of the neural network. 
+2. The method first performs a forward pass using the input data and current weights. It then computes the derivative of the loss (For both Cross entropy and Mean square error) with respect to the final activation layer. Using this derivative, the method iteratively computes the derivatives for each previous layer, propagating backwards through the network.
+3. L2 Regularisation is added in backprop only to not to overfit model
+4. Finally, it returns the derivative of the loss with respect to the input layer activations.
+5. The fit method takes input parameters such as X and Y training data, X_val and Y_val validation data, and several hyperparameters such as the optimization algorithm, learning rate, etc.
+6. The method trains the neural network for the given number of epochs using a loop and prints the train loss, train accuracy, validation loss, and validation accuracy every five epochs.
+7. The method implements four optimization algorithms (SGD, Momentum, RMSProp, Adam) and updates the weights and biases of the neural network in each epoch accordingly.
+8. It prints the training and validation loss and accuracy at each epoch.
 
 The code for question 3 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Question_3.ipynb).
 
