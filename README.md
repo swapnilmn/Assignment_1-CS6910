@@ -13,12 +13,12 @@ Install Keras:
 
 # Question 1
 Approch:
-1. Read input data and create an empty dictionary to store class-wise data.
-2. Iterate through the input data and populate the dictionary with images belonging to each class.
-3. Initialize an empty list to store the selected images.
-4. For each class in the dictionary, select the first image and add it to the list of selected images.
-5. Visualize the selected images using library Matplotlib.
-6. Integrate Wandb by initializing a new run, logging the selected images.
+1. Read input data and created an empty dictionary to store class-wise data.
+2. Iterated through the input data and populated the dictionary with images belonging to each class as representative.
+3. Initialized an empty list to store the selected images from each class of data.
+4. For each class in the dictionary, selected the first image and added it to the list of selected images.
+5. Visualized the selected images using library Matplotlib for both Train data and Test data.
+6. Integrated Wandb by initializing a new run, logging the selected images And pasted those wandb images into wandb report.
 
 The code for question 1 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Q1.ipynb). Additionally, a WandB visualization for question 1 is accessible at the following [link for Test data](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Test-Sample-Images-23-03-07-09-46-44---VmlldzozNzE5NDE2?accessToken=5pjoktdiyt55kxfa5ice07170c49t7q51nxsg94urfftg7sqe0lnwlushquvy5el), [link for train data](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Train-Sample-Images-23-03-07-09-47-46---VmlldzozNzE5NDIz?accessToken=zlhk92dggxsrfawk6vl1sm9ctbeqsng9q8bqm7vvt4r1weaee0pyqodwk4xge1l1).
 
