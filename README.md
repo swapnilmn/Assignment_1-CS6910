@@ -24,12 +24,13 @@ The code for question 1 is available at the following [link](https://github.com/
 
 # Question 2
 Approch:
-1. The code contains a class named "OneHotEncoder_from_scratch" for one-hot encoding of categorical variables.
-2. The code defines a class FFNetwork that implements a feedforward neural network for classification tasks.
+1. For one-hot encoding of categorical variables class named "OneHotEncoder_from_scratch" is created and labels are converted into one hot matrix
+2. Class FFNetwork defined that implementes a feedforward neural network for classification tasks of images
 3. The network is initialized with hyperparameters such as the number of epochs, the number of hidden layers, the size of each hidden layer, the learning rate, and the activation function.
 4. The weights and biases of the network are initialized using either random or Xavier initialization.
 5. The network has methods for computing the forward activation, gradient of the activation, and softmax function.
-6. The forward_pass method computes the output of the network given an input X and the current weights and biases.
+6. The forward_pass method computes the output of the network given an input X and the current weights and biases. It prints outputs as probability distribution over the 10 classes.
+7. You can see the code is enough flexible to change number of hidden layers and correspondingly repsectlively number of neurons in each hidden layers. Just changing values when calling class will give changes. Both number of hidden layers and neurons in each layer of hidden layers can be changed
 
 The code for question 2 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Question_2ipynb.ipynb).
 
