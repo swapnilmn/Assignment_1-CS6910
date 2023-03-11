@@ -100,3 +100,6 @@ code for implementation can be found at [link](https://github.com/swapnilmn/Assi
 
 # Train.py file
 link of [train.py](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/train_py.py) file 
+
+# Wandb Report
+link of [wandb report](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/CS6910-Assignment-1--VmlldzozNzEzNTk1) file
