@@ -97,8 +97,8 @@ Github [link](https://github.com/swapnilmn/Assignment_1_CS6910)
 
 # Question 10
 Approch:
-1. We the learning of wandb sweepings for fanstion mnist dataset i took 3 best validation accuracy confihurations for mnist dataste.
-2. From this I got accuracies repectively:
+1. With the learning of wandb sweepings for fastion mnist dataset I took 3 best validation accuracy configurations for mnist dataste.
+2. From this I got accuracies repectively: 0.9672 ,0.9801,0.9755 for test dataset
 
 code for implementation can be found at [link](https://github.com/swapnilmn/Assignment_1_CS6910/blob/master/Assignment_1_Question10.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://wandb.ai/ed22s009/Question_10?workspace=user-ed22s009).
 
