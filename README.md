@@ -88,8 +88,9 @@ Approch:
 1. Implemented a function to calculate the squared error loss. L = 1/2 * (predicted_value - actual_value) ^ 2
 2. Took the outputs of both squared error loss and cross entropy loss for a given set of predictions and actual values.
 3. Integrate the outputs of squared error loss and cross entropy loss to see a plot automatically generated on wandb.
+4. The inferior performance of Mean Squared Error is attributed to its lack of suitability for probability-based problems. Therefore, for image classification problems, cross-entropy is the more appropriate loss function to use. so cross entropy gives good performance
 
-The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Question_8-MSE-and-CE-comparison---VmlldzozNzM3MTk5).
+The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://wandb.ai/ed22s009/Question_8_comparison?workspace=user-ed22s009).
 
 
 # Question 10
