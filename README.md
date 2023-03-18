@@ -58,6 +58,23 @@ Approch:
 The code for question 4 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question4.ipynb). Additionally, a WandB visualization for question 4 is accessible at the following [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Question-4--VmlldzozNzA5ODcx).
 
 # Question 5
+1. Best Accuracy:  89.53  (Validation), 93.21 (Training)
+sweep_config = {
+        'method': 'grid',
+        'name': 'Assignement1',
+        'metric': {'goal': 'maximize', 'name': 'val_accuracy'},
+        'parameters': {
+          'epochs': {'values': [18]},#150
+          'hidden_layer_count':{'values': [3]},
+          'size_hidden_layers':{'values': [256]},
+          'learning_rate':{'values': [0.001]},
+          'optimizer':{'values': ['nadam']},
+          'batch_size':{'values': [128]},
+          'activation':{'values': ['tanh']},
+          'weight_initializations':{'values': ['Xavier']},
+          'weight_decay':{'values': [0]}}
+        }
+
 The wandb visualisation for question 5 can be found at this [link](https://api.wandb.ai/links/ed22s009/mcze8md4).
 
 # Question 6
