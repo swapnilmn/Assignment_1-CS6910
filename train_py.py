@@ -783,7 +783,7 @@ def train(args):
             # Check if the last epoch has been reached and print a success message
             if num_epoch == self.epochs:
                 print('Model trained successfully !')
-  
+  np.random.seed(0)
   X_train, X_val, X_test, Y_train, Y_val, Y_test = dataset_type(dataset = args.dataset)
   model = FFNN(X_train, Y_train,
                 epochs=args.epochs, 
