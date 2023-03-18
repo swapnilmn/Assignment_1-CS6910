@@ -113,7 +113,11 @@ Approch:
 3. Integrate the outputs of squared error loss and cross entropy loss to see a plot automatically generated on wandb.
 4. The inferior performance of Mean Squared Error is attributed to its lack of suitability for probability-based problems. Therefore, for image classification problems, cross-entropy is the more appropriate loss function to use. so cross entropy gives good performance
 
-The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://wandb.ai/ed22s009/Question_8_comparison?workspace=user-ed22s009).
+                  *Results*:                  Mean Square error                Cross Entropy error
+                Val Accuracy                    88.87%                                89.53%
+                Train Accuracy                  92.51%                                93.21%
+
+The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://api.wandb.ai/links/ed22s009/ck1fgxuq).
 
 # Question 9
 Github [link](https://github.com/swapnilmn/Assignment_1_CS6910)
