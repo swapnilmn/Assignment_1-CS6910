@@ -8,7 +8,9 @@ You can access the task instructions [here](https://wandb.ai/cs6910_2023/A1/repo
 # Installation
 
 Install wandb: 
+
 Install Numpy: 
+
 Install Keras:
 
 # Question 1
