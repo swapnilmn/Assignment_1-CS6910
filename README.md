@@ -125,7 +125,18 @@ Github [link](https://github.com/swapnilmn/Assignment_1_CS6910)
 # Question 10
 Approch:
 1. With the learning of wandb sweepings for fastion mnist dataset I took 3 best validation accuracy configurations for mnist dataste.
-2. From this I got accuracies repectively: 0.9672 ,0.9801,0.9755 for test dataset
+        a.  configuration1 = {'learning_rate': 0.001,'epochs': 18,'hidden_layer_count': 3,'size_hidden_layers': 256,'optimizer': 'nadam', 'batch_size': 128,
+           'activation': 'tanh','weight_initializations': 'Xavier','weight_decay': 0,'loss_function': 'cross_entropy', 'dataset': "mnist"}
+            Train Accuracy for MNIST dataset =  99.88518518518519%
+            Test Accuracy for MNIST dataset =  98.1%
+        b.  configuration2 = {'learning_rate': 0.001,'epochs': 20,'hidden_layer_count': 3,'size_hidden_layers': 256, 'optimizer': 'nadam','batch_size': 128,
+            'activation': 'tanh', 'weight_initializations': 'Xavier', 'weight_decay': 0.0005, 'loss_function': 'cross_entropy', 'dataset': "mnist"}
+            Train Accuracy for MNIST dataset = 99.79259259259259%
+            Test Accuracy for MNIST dataset = 98.23333333333333%
+        c. configuration3 = {'learning_rate': 0.001,'epochs': 15,'hidden_layer_count':3,'size_hidden_layers': 512,'optimizer': 'nadam','batch_size': 128,
+           'activation': 'tanh','weight_initializations': 'random','weight_decay': 0.0005,'loss_function': 'cross_entropy','dataset': "mnist"}
+            Train Accuracy for MNIST dataset =  99.261111111111%  
+             Test Accuracy for MNIST dataset =  97.83333333333334%
 
 code for implementation can be found at [link](https://github.com/swapnilmn/Assignment_1_CS6910/blob/master/Assignment_1_Question10.ipynb). You can also check the wandb visualisation for question 10 by clicking on the [link](https://wandb.ai/ed22s009/Question_10?workspace=user-ed22s009).
 
