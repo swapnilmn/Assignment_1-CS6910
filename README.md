@@ -136,8 +136,8 @@ Approch:
             Test Accuracy for MNIST dataset = 98.23333333333333%
         c. configuration3 = {'learning_rate': 0.001,'epochs': 15,'hidden_layer_count':3,'size_hidden_layers': 512,'optimizer': 'nadam','batch_size': 128,
            'activation': 'tanh','weight_initializations': 'random','weight_decay': 0.0005,'loss_function': 'cross_entropy','dataset': "mnist"}
-            Train Accuracy for MNIST dataset =  99.261111111111%  
-             Test Accuracy for MNIST dataset =  97.83333333333334%
+            Train Accuracy for MNIST dataset =  99.96666666666667%%  
+             Test Accuracy for MNIST dataset =   98.16666666666667%%
              
 
 code for implementation can be found at [link](https://github.com/swapnilmn/Assignment_1_CS6910/blob/master/Assignment_1_Question10.ipynb). You can also check the wandb visualisation for question 10 by clicking on the [link](https://api.wandb.ai/links/ed22s009/pj7ord4u).
