@@ -59,6 +59,7 @@ The code for question 4 is available at the following [link](https://github.com/
 
 # Question 5
 1. Best Accuracy:  89.53  (Validation), 93.21 (Training)
+
 sweep_config = {
         'method': 'grid',
         'name': 'Assignement1',
