@@ -117,7 +117,7 @@ Approch:
                 Val Accuracy                    88.87%                                89.53%
                 Train Accuracy                  92.51%                                93.21%
 
-The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://api.wandb.ai/links/ed22s009/ck1fgxuq).
+The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://api.wandb.ai/links/ed22s009/ybaqty81).
 
 # Question 9
 Github [link](https://github.com/swapnilmn/Assignment_1_CS6910)
