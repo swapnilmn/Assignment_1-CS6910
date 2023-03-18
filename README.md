@@ -140,7 +140,7 @@ Approch:
              Test Accuracy for MNIST dataset =  97.83333333333334%
              
 
-code for implementation can be found at [link](https://github.com/swapnilmn/Assignment_1_CS6910/blob/master/Assignment_1_Question10.ipynb). You can also check the wandb visualisation for question 10 by clicking on the [link](https://wandb.ai/ed22s009/Question_10?workspace=user-ed22s009).
+code for implementation can be found at [link](https://github.com/swapnilmn/Assignment_1_CS6910/blob/master/Assignment_1_Question10.ipynb). You can also check the wandb visualisation for question 10 by clicking on the [link](https://api.wandb.ai/links/ed22s009/pj7ord4u).
 
 # Train.py file
 link of [train.py](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/train_py.py) file 
