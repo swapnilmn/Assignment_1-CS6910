@@ -856,7 +856,7 @@ configuration1 = {
 # dataset  = ["fashion_mnist","mnist" ]
 ######################################################################## TOP PERFRORMANCES  ###################################################################################
 # !python train.py -wp myproject -we ed22s009 -d fashion_mnist -e 18 -b 128 -lr 0.001 -nhl 3 -sz 256 -a tanh -w_i Xavier -w_d 0 -o nadam -l cross_entropy
-# !python train.py -wp myproject -we ed22s009 -d fashion_mnist -e 20 -b 128 -lr 0.001 -nhl 3 -sz 256 -a tanh -w_i Xavier -w_d 0 -o nadam -l cross_entropy
+# !python train.py -wp myproject -we ed22s009 -d fashion_mnist -e 20 -b 128 -lr 0.001 -nhl 3 -sz 256 -a tanh -w_i Xavier -w_d 0 -o.0005 nadam -l cross_entropy
 # !python train.py -wp myproject -we ed22s009 -d fashion_mnist -e 15 -b 128 -lr 0.001 -nhl 3 -sz 512 -a tanh -w_i Xavier -w_d 0 -o nadam -l cross_entropy
 ######################################################################## Comparison of MSE and CE  ############################################################################
 # !python train.py -wp myproject -we ed22s009 -d fashion_mnist -e 18 -b 128 -lr 0.001 -nhl 3 -sz 256 -a tanh -w_i Xavier -w_d 0 -o nadam -l mean_squared_error
