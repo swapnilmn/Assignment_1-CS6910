@@ -60,7 +60,7 @@ Approch:
 The code for question 4 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question4.ipynb). Additionally, a WandB visualization for question 4 is accessible at the following [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Question-4--VmlldzozNzA5ODcx).
 
 # Question 5
-1. Best Accuracy:  89.57  (Validation), 93.21 (Training)
+1. Best Accuracy:  89.56  (Validation), 93.21 (Training)
 
         sweep_config = {
                 'method': 'grid',
@@ -105,7 +105,7 @@ Approch:
             'dataset': 'fashion_mnist'
         }
         
- 5. Val Accuracy is 89.57% for this config.
+ 5. Val Accuracy is 89.56% for this config.
  6.  Plot and integrate wandb to keep track using wandb. The code for question 7 can be found here [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question7.ipynb). The wandb visualisation for question 7 can be found here [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/undefined-23-03-07-10-06-27---VmlldzozNzE5NTE2?accessToken=8i9nfbgbvu44z24cag0wokh82nxvvx9okpc5uisp5qpxxr0452kdjug93gknn3jz).
     
 # Question 8
@@ -116,7 +116,7 @@ Approch:
 4. The inferior performance of Mean Squared Error is attributed to its lack of suitability for probability-based problems. Therefore, for image classification problems, cross-entropy is the more appropriate loss function to use. so cross entropy gives good performance
 
                   *Results*:                  Mean Square error                Cross Entropy error
-                Val Accuracy                    88.28%                                89.57%
+                Val Accuracy                    88.28%                                89.56%
                 Train Accuracy                  92.77%                                93.21%
 
 The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://api.wandb.ai/links/ed22s009/ybaqty81).
