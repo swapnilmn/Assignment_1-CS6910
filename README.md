@@ -60,14 +60,14 @@ Approch:
 The code for question 4 is available at the following [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question4.ipynb). Additionally, a WandB visualization for question 4 is accessible at the following [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/Question-4--VmlldzozNzA5ODcx).
 
 # Question 5
-1. Best Accuracy:  89.53  (Validation), 93.21 (Training)
+1. Best Accuracy:  89.57  (Validation), 93.21 (Training)
 
         sweep_config = {
                 'method': 'grid',
                 'name': 'Assignement1',
                 'metric': {'goal': 'maximize', 'name': 'val_accuracy'},
                 'parameters': {
-                  'epochs': {'values': [18]},#150
+                  'epochs': {'values': [19]},#150
                   'hidden_layer_count':{'values': [3]},
                   'size_hidden_layers':{'values': [256]},
                   'learning_rate':{'values': [0.001]},
@@ -93,7 +93,7 @@ Approch:
 
         configuration = {
             'learning_rate': 0.001,
-            'epochs': 18,
+            'epochs': 19,
             'hidden_layer_count': 3,
             'size_hidden_layers': 256,
             'optimizer': 'nadam',
@@ -105,7 +105,7 @@ Approch:
             'dataset': 'fashion_mnist'
         }
         
- 5. Val Accuracy is 89.53 for this config.
+ 5. Val Accuracy is 89.57% for this config.
  6.  Plot and integrate wandb to keep track using wandb. The code for question 7 can be found here [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question7.ipynb). The wandb visualisation for question 7 can be found here [link](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/undefined-23-03-07-10-06-27---VmlldzozNzE5NTE2?accessToken=8i9nfbgbvu44z24cag0wokh82nxvvx9okpc5uisp5qpxxr0452kdjug93gknn3jz).
     
 # Question 8
@@ -116,8 +116,8 @@ Approch:
 4. The inferior performance of Mean Squared Error is attributed to its lack of suitability for probability-based problems. Therefore, for image classification problems, cross-entropy is the more appropriate loss function to use. so cross entropy gives good performance
 
                   *Results*:                  Mean Square error                Cross Entropy error
-                Val Accuracy                    88.87%                                89.53%
-                Train Accuracy                  92.51%                                93.21%
+                Val Accuracy                    88.28%                                89.57%
+                Train Accuracy                  92.77%                                93.21%
 
 The code for implementing these steps can be found in the [link](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/Assignment_1_Question8.ipynb). You can also check the wandb visualisation for question 8 by clicking on the [link](https://api.wandb.ai/links/ed22s009/ybaqty81).
 
@@ -128,24 +128,27 @@ Github [link](https://github.com/swapnilmn/Assignment_1_CS6910)
 Approch:
 1. With the learning of wandb sweepings for fastion mnist dataset I took 3 best validation accuracy configurations for mnist dataste.
 
-        a.  configuration1 = {'learning_rate': 0.001,'epochs': 18,'hidden_layer_count': 3,'size_hidden_layers': 256,'optimizer': 'nadam', 'batch_size': 128,
+
+        a.  configuration1 = {'learning_rate': 0.001,'epochs': 19,'hidden_layer_count': 3,'size_hidden_layers': 256,'optimizer': 'nadam', 'batch_size': 128,
            'activation': 'tanh','weight_initializations': 'Xavier','weight_decay': 0,'loss_function': 'cross_entropy', 'dataset': "mnist"}
-            Train Accuracy for MNIST dataset =  99.88518518518519%
-            Test Accuracy for MNIST dataset =  98.1%
+            Train Accuracy for MNIST dataset =  99.21%
+            Test Accuracy for MNIST dataset =  98.87%
         b.  configuration2 = {'learning_rate': 0.001,'epochs': 20,'hidden_layer_count': 3,'size_hidden_layers': 256, 'optimizer': 'nadam','batch_size': 128,
             'activation': 'tanh', 'weight_initializations': 'Xavier', 'weight_decay': 0.0005, 'loss_function': 'cross_entropy', 'dataset': "mnist"}
-            Train Accuracy for MNIST dataset = 99.79259259259259%
-            Test Accuracy for MNIST dataset = 98.23333333333333%
+            Train Accuracy for MNIST dataset = 99.79%
+            Test Accuracy for MNIST dataset = 98.36%
         c. configuration3 = {'learning_rate': 0.001,'epochs': 15,'hidden_layer_count':3,'size_hidden_layers': 512,'optimizer': 'nadam','batch_size': 128,
            'activation': 'tanh','weight_initializations': 'random','weight_decay': 0.0005,'loss_function': 'cross_entropy','dataset': "mnist"}
-            Train Accuracy for MNIST dataset =  99.96666666666667%%  
-             Test Accuracy for MNIST dataset =   98.16666666666667%%
+            Train Accuracy for MNIST dataset =  99.96%%  
+             Test Accuracy for MNIST dataset =   98.21%%
              
 
 code for implementation can be found at [link](https://github.com/swapnilmn/Assignment_1_CS6910/blob/master/Assignment_1_Question10.ipynb). You can also check the wandb visualisation for question 10 by clicking on the [link](https://api.wandb.ai/links/ed22s009/pj7ord4u).
 
 # Train.py file
-link of [train.py](https://github.com/swapnilmn/Assignment_1-CS6910/blob/master/train_py.py) file 
+link of [train.py](https://github.com/swapnilmn/Assignment_1_CS6910/blob/master/train.py) file 
+
+link of [mock run](https://github.com/swapnilmn/Assignment_1_CS6910/blob/master/Mock_train.py_run.ipynb)
 
 # Wandb Report
 link of [wandb report](https://wandb.ai/ed22s009/Question_4_Best_Model/reports/CS6910-Assignment-1--VmlldzozNzEzNTk1) file
